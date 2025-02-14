@@ -1,15 +1,21 @@
-@media(max-width: 1280px) {
-    /* .conteudo{
-        flex-shrink: 2;
+@media(max-width: 1500px) {
+    .conteudo{
+        width: 434px;
+        height: 490px;
+        gap: 42px;
+        padding: 45.5px 42px;
     }
 
-    .conteudo.descricao{
-        width: 20%;
-        height: 20%;
+    .conteudo .titulo{
+        font-size: 35px;
+    }
+
+    .conteudo .descricao{
+        font-size: 17.5px;
+        line-height: 24.5px;
     }
     
-    .conteudo.btn-saiba-mais{
-        width: 20%;
-        height: 20%;
-    } */
+    .conteudo .btn-saiba-mais{
+        font-size: 21px;
+    }
 }
