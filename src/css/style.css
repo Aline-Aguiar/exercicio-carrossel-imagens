@@ -103,6 +103,11 @@ body{
     overflow: hidden; /* serve pra desaparecer o texto */
 }
 
+.todo-conteudo .carrossel .seta.desabilitar{
+    opacity: 0.5;
+    cursor: auto;
+}
+
 .todo-conteudo .carrossel .btn-voltar{
     left: 50px;
     transform: rotateY(180deg); /* vira a imagem da seta */
