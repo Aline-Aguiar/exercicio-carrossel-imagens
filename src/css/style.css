@@ -90,7 +90,23 @@ body{
 .conteudo .btn-saiba-mais{
     font-size: 30px;
     font-weight: 700;
-    color:#10ACDD;
+    color: #C50000;
+}
+
+.conteudo .btn-saiba-mais.color1{
+    color: #C50000;
+}
+
+.conteudo .btn-saiba-mais.color2{
+    color:#D9DD10;
+}
+
+.conteudo .btn-saiba-mais.color3{
+    color: #A63A17;
+}
+
+.conteudo .btn-saiba-mais.color4{
+    color: #10ACDD;
 }
 
 .todo-conteudo .carrossel .seta{
