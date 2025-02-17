@@ -26,13 +26,10 @@ function habilitarSeta(seta){
 function corBotao(imagem){
     switch (imagem){
         case 0:
-            btnSaibaMais.classList.remove('color4');
-            btnSaibaMais.classList.remove('color3');
             btnSaibaMais.classList.remove('color2');
             btnSaibaMais.classList.add('color1');
             break;
         case 1:
-            btnSaibaMais.classList.remove('color4');
             btnSaibaMais.classList.remove('color3');
             btnSaibaMais.classList.remove('color1');
             btnSaibaMais.classList.add('color2');
@@ -40,7 +37,6 @@ function corBotao(imagem){
         case 2:
             btnSaibaMais.classList.remove('color4');
             btnSaibaMais.classList.remove('color2');
-            btnSaibaMais.classList.remove('color1');
             btnSaibaMais.classList.add('color3');
             break;
         case 3:
